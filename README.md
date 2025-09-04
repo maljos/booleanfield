@@ -4,6 +4,10 @@ El `BooleanField` es una solución optimizada para la gestión de campos boolean
 
 El diseño se basa en un conjunto de **13 estados válidos** que representan todas las combinaciones posibles de valor (`true`, `false`, `NULL`), restricción (`NOT NULL`) y valor por defecto. La estructura de datos garantiza que cualquier valor fuera de estas combinaciones sea considerado inválido, lo que refuerza la integridad del dato a nivel fundamental.
 
+
+### Justificación:
+
+Este código es el resultado de la puesta en práctica de mi camino de aprendizaje del lenguaje Rust, que reconozco que aún son superficiales. Me imagino que a medida que vaya avanzando, iré mejorando la implementación del código aquí publicado.
 -----
 
 ### Principios de Ingeniería
