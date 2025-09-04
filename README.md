@@ -22,11 +22,15 @@ El campo es "autoconsciente" porque **lleva consigo su propia definición de lo 
 
 #### 3\. Separación de Responsabilidades
 
-El código sigue un patrón de diseño limpio y modular. Las responsabilidades están claramente separadas:
+El diseño separa de forma limpia las responsabilidades en diferentes componentes, siguiendo el principio de la separación de intereses:
 
-  * `PackedBooleanData` y `BooleanOps` se encargan de la lógica de bajo nivel, las operaciones de empaquetamiento de bits y las operaciones lógicas, optimizadas para el rendimiento.
-  * `BooleanField` es una interfaz de alto nivel que ofrece una API intuitiva y legible para el desarrollador, ocultando la complejidad subyacente. Esta separación facilita la lectura, el mantenimiento y la extensibilidad del código.
+PackedBooleanData y BooleanOps se encargan de la lógica de bajo nivel, las operaciones de empaquetamiento de bits y las operaciones lógicas, optimizadas para el rendimiento.
 
+BooleanDisplayConfig y BooleanDisplay gestionan la presentación y visualización del campo, permitiendo a los desarrolladores personalizar la salida ("true", "false", "Sí", "No") sin afectar la lógica de almacenamiento.
+
+BooleanField es la interfaz de alto nivel que une todas las partes, ofreciendo una API intuitiva y legible.
+
+Esta arquitectura evita que el código se vuelva monolítico, haciendo que sea más fácil de leer, mantener y extender.
 -----
 
 ### Uso y Funcionalidad
