@@ -30,15 +30,6 @@
 - 🧩 **Extensible**: Fácil de integrar con otros sistemas
 - 📦 **Ligero**: Sin dependencias externas
 
-## Instalación
-
-Agrega la siguiente línea a tu archivo `Cargo.toml`:
-
-```toml
-[dependencies]
-booleanfield = "0.1.0"  # Verifica la versión más reciente en crates.io
-```
-
 ## Uso
 
 Aquí tienes un ejemplo básico de cómo usar `BooleanField`:
