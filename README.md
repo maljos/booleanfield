@@ -11,7 +11,6 @@
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -27,15 +26,6 @@
 - 🔒 **Safe**: Built-in data validation
 - 🧩 **Extensible**: Easy to integrate with other systems
 - 📦 **Lightweight**: No external dependencies
-
-## Installation
-
-Add the following to your `Cargo.toml`:
-
-```toml
-[dependencies]
-booleanfield = "0.1.0"  # Check the latest version on crates.io
-```
 
 ## Usage
 
