@@ -13,7 +13,6 @@
 ## Tabla de Contenidos
 
 - [Características](#características)
-- [Instalación](#instalación)
 - [Uso](#uso)
 - [Documentación](#documentación)
 - [Contribución](#contribución)
